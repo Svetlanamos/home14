@@ -1,0 +1,115 @@
+.background-sec2 {
+  background-color: #5a6268;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.background-photo1 {
+  background-image: url("..//img/bac-4.png");
+}
+
+.background-photo2 {
+  background-image: url("..//img/bac-3.png");
+}
+
+.background-photo2, .background-photo1 {
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+}
+
+.block-design1, .block-design2 {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  flex-wrap: wrap;
+
+}
+
+.headline-text {
+  text-align: center;
+}
+
+.web-web {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.web-1, .web-2 {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.but-press {
+  padding-bottom: 5%;
+  margin-left: 40%;
+}
+
+.background-13 {
+  background-image: url("..//img/bac-13.png");
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.press {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.clan1 {
+  background-image: url("..//img/bac-14.png");
+  background-color: #de5b09;
+  flex-basis: 33.3%;
+  height: 481px;
+}
+
+.clan2 {
+  background-image: url("..//img/bac-15.png");
+  flex-basis: 33.3%;
+}
+
+.clan3 {
+  background-image: url("..//img/bac-16.png");
+  background-color: #2dcc70;
+  flex-basis: 33.3%;
+}
+
+.portfolio {
+  padding-top: 15%;
+}
+
+.button-temp {
+  padding-bottom: 15%;
+}
+
+.button-temp1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+  .rowset {
+    margin-left: 24%;
+  }
+  .bac-map {
+    width: 100%;
+    background-size: cover;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+}

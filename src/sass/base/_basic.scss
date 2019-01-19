@@ -1,0 +1,62 @@
+h1, h3 {
+  color: #000000;
+  font-family: 'PT Serif', Arial serif;
+  font-size: 48px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'PT Serif', Arial serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+h2 span {
+  font-weight: 700;
+}
+
+.text-sag {
+  color: #ffffff;
+  font-family: 'PT Serif', Arial serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+h4 {
+  color: #000000;
+  font-family: 'PT Serif', Arial serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: 'PT Serif', Arial serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.button1 {
+  width: 205px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  background-image: linear-gradient(74deg, #49007c 0%, #e70088 100%);
+  color: #ffffff;
+  font-family: 'PT Serif', Arial serif;
+  font-size: 18px;
+  margin-top: 5%;
+
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
